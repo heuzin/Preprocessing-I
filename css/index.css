@@ -137,6 +137,12 @@ body {
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
+@media (max-width: 500px) {
+  html,
+  body {
+    margin: auto;
+  }
+}
 h1,
 h2,
 h3,
@@ -151,21 +157,51 @@ h5 {
   justify-content: flex-end;
   margin: 15px 0;
 }
+@media (max-width: 500px) {
+  .nav-content {
+    justify-content: space-around;
+  }
+}
 .nav-content a {
   padding: 0 10px;
   text-decoration: none;
   color: black;
 }
+@media (max-width: 500px) {
+  .nav-content a {
+    padding: 0;
+  }
+}
 .nav-content a:last-child {
   padding-right: 0;
 }
+@media (max-width: 500px) {
+  .nav-content a:last-child {
+    padding: 0;
+  }
+}
 .top-content {
-  background-color: Azure;
+  background-color: azure;
   height: 550px;
+}
+@media (max-width: 500px) {
+  .top-content {
+    height: 500px;
+  }
 }
 .top-content .logo {
   width: 50%;
   margin: 40px 20px 10px;
+}
+@media (max-width: 500px) {
+  .top-content .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 15px;
+    margin-top: 0;
+  }
 }
 .top-content .top-content-h1 {
   margin: 0px 20px 15px;
@@ -174,6 +210,11 @@ h5 {
 }
 .top-content .top-content-h1 h1 {
   font-size: 30px;
+}
+@media (max-width: 500px) {
+  .top-content .top-content-h1 h1 {
+    text-align: center;
+  }
 }
 .top-content .top-content-paragraph p {
   margin: 20px;
@@ -187,22 +228,56 @@ h5 {
   border-radius: 5px;
   color: white;
 }
+@media (max-width: 500px) {
+  .top-content .top-content-paragraph button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
 .middle-content {
   display: flex;
   justify-content: space-between;
   margin: 25px 0;
 }
+@media (max-width: 500px) {
+  .middle-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .middle-content .text-content {
   width: 55%;
+}
+@media (max-width: 500px) {
+  .middle-content .text-content {
+    width: 100%;
+    margin-bottom: 35px;
+  }
 }
 .middle-content .text-content h2 {
   font-size: 25px;
 }
+@media (max-width: 500px) {
+  .middle-content .text-content h2 {
+    text-align: center;
+  }
+}
 .middle-content .good-at {
   width: 40%;
 }
+@media (max-width: 500px) {
+  .middle-content .good-at {
+    width: 80%;
+  }
+}
 .middle-content .good-at h3 {
   font-size: 20px;
+}
+@media (max-width: 500px) {
+  .middle-content .good-at h3 {
+    text-align: center;
+  }
 }
 .middle-content .good-at div {
   padding: 10px 0 10px 10px;
@@ -213,6 +288,11 @@ h5 {
 }
 .bottom-content h3 {
   font-size: 18px;
+}
+@media (max-width: 500px) {
+  .bottom-content h3 {
+    text-align: center;
+  }
 }
 .bottom-content table {
   width: 100%;
