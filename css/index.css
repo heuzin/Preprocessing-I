@@ -149,7 +149,7 @@ h5 {
 .nav-content {
   display: flex;
   justify-content: flex-end;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 .nav-content a {
   padding: 0 10px;
@@ -160,7 +160,7 @@ h5 {
   padding-right: 0;
 }
 .top-content {
-  background-color: lightgrey;
+  background-color: Azure;
   height: 550px;
 }
 .top-content .logo {
@@ -182,10 +182,14 @@ h5 {
   width: 20%;
   height: 30px;
   margin: 0 20px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
 }
 .middle-content {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   margin: 25px 0;
 }
 .middle-content .text-content {
@@ -222,6 +226,9 @@ h5 {
   padding: 7px 0;
   border-bottom: 1px solid lightgrey;
   border-top: 1px solid lightgrey;
+}
+.bottom-content table tr:nth-child(even) {
+  background-color: azure;
 }
 footer {
   text-align: center;
