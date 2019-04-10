@@ -133,7 +133,7 @@ table {
 html,
 body {
   height: 100%;
-  margin: auto 20%;
+  margin: auto 15%;
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
@@ -161,7 +161,7 @@ h5 {
 }
 .top-content {
   background-color: lightgrey;
-  height: 450px;
+  height: 550px;
 }
 .top-content .logo {
   width: 50%;
@@ -171,6 +171,9 @@ h5 {
   margin: 0px 20px 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid gray;
+}
+.top-content .top-content-h1 h1 {
+  font-size: 30px;
 }
 .top-content .top-content-paragraph p {
   margin: 20px;
@@ -187,4 +190,42 @@ h5 {
 }
 .middle-content .text-content {
   width: 55%;
+}
+.middle-content .text-content h2 {
+  font-size: 25px;
+}
+.middle-content .good-at {
+  width: 40%;
+}
+.middle-content .good-at h3 {
+  font-size: 20px;
+}
+.middle-content .good-at div {
+  padding: 10px 0 10px 10px;
+  border: 1px solid black;
+}
+.bottom-content {
+  margin-bottom: 20px;
+}
+.bottom-content h3 {
+  font-size: 18px;
+}
+.bottom-content table {
+  width: 100%;
+}
+.bottom-content table tr th {
+  text-align: justify;
+  padding: 7px 0;
+  border-top: 1px solid lightgrey;
+}
+.bottom-content table tr td {
+  padding: 7px 0;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+footer {
+  text-align: center;
+  padding: 16px;
+  background-color: gray;
+  color: white;
 }
