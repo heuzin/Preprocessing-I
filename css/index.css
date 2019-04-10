@@ -133,4 +133,58 @@ table {
 html,
 body {
   height: 100%;
+  margin: auto 20%;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.nav-content {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+.nav-content a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+.nav-content a:last-child {
+  padding-right: 0;
+}
+.top-content {
+  background-color: lightgrey;
+  height: 450px;
+}
+.top-content .logo {
+  width: 50%;
+  margin: 40px 20px 10px;
+}
+.top-content .top-content-h1 {
+  margin: 0px 20px 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+.top-content .top-content-paragraph p {
+  margin: 20px;
+}
+.top-content .top-content-paragraph button {
+  width: 20%;
+  height: 30px;
+  margin: 0 20px;
+}
+.middle-content {
+  justify-content: space-between;
+  display: flex;
+  margin: 25px 0;
+}
+.middle-content .text-content {
+  width: 55%;
 }
